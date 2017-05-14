@@ -1,6 +1,5 @@
-var countAllFromTown=require('../countAllFromTown');
+module.exports = function(regNumber){
 
-function countAllFromTown(regNumber){
   var fromStellies=regNumber.split(',');
   console.log(fromStellies);
   var count=[];
